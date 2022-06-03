@@ -1,0 +1,27 @@
+#logo {
+  height:var(--element-height);
+  width:var(--element-width);
+  color: #9b806b;
+}
+
+/* TODO 
+Make input larger and scalable on mobile and desktop
+
+make results look nice, with borders seperating them
+
+Create custom logo as header */
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+header #searchTerm {
+  height:var(--element-height);
+  width:var(--element-width);
+}
+
+h1 {
+  height: 200px;
+  color: blue;
+}
+
