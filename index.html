@@ -1,31 +1,26 @@
 <html>
     <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
-    />
+        <link rel="stylesheet" href="styles.css"></link>
+    
     </head>
    
     <body>
-      <div id="header">
-       
+      <div id="title">
+      <img src="placeholder.png" alt="NextRead logo" id="logo">
       </div>
-        <input id='searchTerm' text="book title">
-        <button id='submit' type="submit">Search!</button>
-        <div class='results'>
-        </div>
-
+      <div id="header">
+      <input id='searchTerm' text="book title" placeholder="Enter a book you like...">
+      </div>
+      <div class='results' id="results">
+      </div>
     </body>
     <footer>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="utils.js"></script>
         <script src="autocomplete.js"></script>
         <script src="index.js"></script>
+        
         
     </footer>
 </html>
