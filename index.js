@@ -4,6 +4,10 @@ create nice looking UI
 
 Make UI scalable from mobile and desktop 
 
+Header with instructions to click book on result page 
+
+Should do something different onclick of final result 
+
 add other search modes, filter by author, genres, and best match (algo)
 
 */
@@ -46,7 +50,7 @@ function organiseResults(array, idType) {
             allResults.innerHTML="";
             //This is book select
             //grab needed search criteria
-            const relatedScreenTitle = `<h1>Books related to <b>${title}<b> by <b>${author}<b></h1>`;
+            const relatedScreenTitle = `<h1>Books related to: <br> <b>${title}<b> by <b>${author}<b></h1>`;
             console.log(relatedScreenTitle)
             input.style.display='none';
             

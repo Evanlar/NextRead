@@ -15,13 +15,18 @@ Create custom logo as header */
   justify-content: center;
 }
 
-header #searchTerm {
-  height:var(--element-height);
-  width:var(--element-width);
-}
 
 h1 {
   height: 200px;
   color: blue;
+  border-style: solid;
+  border-color: dodgerblue;
 }
+
+#results p {
+  color: aqua;
+  border-style: dashed;
+  border-color: black;
+}
+
 
